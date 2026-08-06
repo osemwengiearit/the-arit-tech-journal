@@ -75,8 +75,8 @@ I believe the best way to learn programming is to:
 
 # Connect With Me
 
-GitHub:
-LinkedIn:
-Portfolio:
+[LinkedIn:](https://shorturl.at/fXRuZ)
+[GitHub:](https://shorturl.at/3qdBQ)
+[Portfolio:](https://arit-portfolio-website.vercel.app/)
 
 Happy Coding! 🚀

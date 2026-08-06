@@ -123,8 +123,8 @@ Each folder contains:
 
 ## Connect with Me
 
-LinkedIn:
-GitHub:
-Portfolio:
+[LinkedIn:](https://shorturl.at/fXRuZ)
+[GitHub:](https://shorturl.at/3qdBQ)
+[Portfolio:](https://arit-portfolio-website.vercel.app/)
 
 Let's learn JavaScript together! 🚀
