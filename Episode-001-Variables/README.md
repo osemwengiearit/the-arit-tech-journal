@@ -1,130 +1,77 @@
-# 📘 The Arit Tech Journal | JavaScript Simplified
+# Episode 001 — Variables
 
-Welcome! 👋
+## Overview
 
-This repository documents my JavaScript learning journey—from understanding the fundamentals to building real-world full-stack applications.
+Variables are one of the first concepts every JavaScript developer should understand.
 
-Every episode contains:
+A variable stores information so it can be used later in a program.
 
-📖 Learn
-
-- Simple explanations
-- Code examples
-- Notes
-- Mini challenges
-
-💻 Practice
-
-- Coding exercises
-- Debugging experience
-- Lessons learned
-
-🚀 Build
-
-- Mini projects
-- Reflection
-- Live Demo
-- GitHub source code
+In this episode, I explored how JavaScript variables work, the differences between `var`, `let`, and `const`, and when each should be used.
 
 ---
 
-## Journey Roadmap
+## Learning Objectives
 
-### JavaScript Fundamentals
+By the end of this episode, I was able to:
 
-- ✅ Episode 1 — Variables
-- ⏳ Episode 2 — Data Types
-- ⏳ Episode 3 — Operators
-- ⏳ Episode 4 — Strings
-- ⏳ Episode 5 — Numbers
-- ⏳ Episode 6 — Functions
-- ⏳ Episode 7 — Arrays
-- ⏳ Episode 8 — Objects
-- ⏳ Episode 9 — Loops
-- ⏳ Episode 10 — DOM
-- ...
-
-### Intermediate JavaScript
-
-- DOM Manipulation
-- Events
-- ES6+
-- Fetch API
-- Async JavaScript
-- Modules
-
-### Advanced JavaScript
-
-- APIs
-- Local Storage
-- Authentication
-- Object-Oriented Programming
-- Design Patterns
-
-### React
-
-- Components
-- Props
-- State
-- Hooks
-- Routing
-- Context API
-
-### Backend
-
-- Node.js
-- Express
-- Databases
-- Authentication
-- REST APIs
-
-### Full Stack Projects
-
-- Weather App
-- Todo App
-- Quiz App
-- Student Management System
-- E-commerce
-- Chat App
+- Understand what variables are
+- Declare variables using `let`
+- Declare constants using `const`
+- Understand why `var` is rarely used today
+- Follow JavaScript naming conventions
 
 ---
 
-## Repository Structure
+## Files
 
-Episode-001-Variables/
-Episode-002-Data-Types/
-Episode-003-Operators/
-Episode-004-Strings/
-...
+### variables.js
 
-Each folder contains:
+Examples of:
 
-- README.md
-- source code
-- screenshots
-- mini project
-- notes
+- let
+- const
+- var
+- Variable naming
+- Reassigning values
 
 ---
 
-## Goals
+### challenge.js
 
-✅ Learn consistently
-
-✅ Build in public
-
-✅ Improve problem-solving
-
-✅ Share knowledge
-
-✅ Become a Full Stack Software Engineer
+Practice exercises for variables.
 
 ---
 
-## Connect with Me
+### project.js
 
-[LinkedIn:](https://shorturl.at/fXRuZ)
-[GitHub:](https://shorturl.at/3qdBQ)
-[Portfolio:](https://arit-portfolio-website.vercel.app/)
+Mini Project:
 
-Let's learn JavaScript together! 🚀
+Student Grade Calculator
+
+This project uses variables to:
+
+- Store student information
+- Calculate average score
+- Determine grade
+- Display results
+
+---
+
+## What I Learned
+
+- Variables store data.
+- `let` is used when values may change.
+- `const` is used when values should not change.
+- Meaningful variable names improve code readability.
+
+---
+
+## Reflection
+
+Understanding variables is the foundation of programming. Every application—from simple calculators to large web applications—uses variables to store and manage data.
+
+---
+
+## Next Episode
+
+➡️ Episode 002 — Data Types

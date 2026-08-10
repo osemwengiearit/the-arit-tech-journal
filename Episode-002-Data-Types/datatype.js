@@ -2,7 +2,7 @@
 In JavaScript, data can be represented as primitive values or objects.
 
 A Value: It is a piece of data that a program can work with.
-It is the most fundamental unit of information that we have in programming.
+It is the most fundamental unit of information that we have in programming.*/
 
 console.log("Arit Osemwengie");
 console.log(32);
@@ -16,7 +16,7 @@ window.alert(`I like pizza`);
 document.getElementById("JS").textContent = `Hello`;
 document.getElementById("MyJS").textContent = `I like pizza`;
 
-Primitive values are basic, immutable pieces of data that are not objects.
+/*Primitive values are basic, immutable pieces of data that are not objects.
 
 PRIMITIVES DATA TYPES
 There are seven (7) Primitive Data Types
@@ -28,15 +28,9 @@ There are seven (7) Primitive Data Types
 5. Null:represents an intentional absence of a value.
 6. Symbol (ES2015): Value that is unique and cannot be changed [Not useful for now]
 7. BigInt (ES2020): Larger integers than the Number type can hold
+*/
 
-
-Primitive Data Types
-Objects vs Primitives
-typeof
-Practice Challenges
-
-
-Example 1
+// Example 1
 
 let age = 25;
 let price = 10.99;
@@ -45,7 +39,6 @@ let gpa = 2.1;
 console.log(typeof age);
 console.log(typeof price);
 console.log(typeof gpa);
-*/
 
 // 🧠 Mini Challenge 1 — Strings
 
@@ -55,7 +48,7 @@ console.log(typeof gpa);
 // Your dream company to work for
 // Then print all three using console.log().
 
-//Solutions
+//Solution
 
 let name = "Arit";
 let language = "JavaScript";
@@ -87,7 +80,7 @@ console.log(age, numberOfCourses, hours);
 // Whether you want to become a full-stack software engineer
 // Store the answers as Boolean values and print them.
 
-//Solutions
+//Solution
 
 let isLearningJavaScript = true;
 let enjoyCoding = true;
@@ -125,24 +118,3 @@ console.log(typeof height);
 console.log(typeof isLearningCoding);
 console.log(typeof programmingSkill);
 console.log(typeof developerProfile);
-
-//Write a program that checks if a person is
-// allowed to take a driving license or not
-
-const driveAge = 19;
-const isOldEnough = age >= 18;
-
-if (isOldEnough) {
-  console.log("Sarah can take a driving license");
-}
-
-//But if Sarah is not old enough to start driving
-
-const oldAge = 15;
-
-if (oldAge >= 18) {
-  console.log("Sarah can start driving 🚗");
-} else {
-  const yearLeft = 18 - oldAge;
-  console.log(`Sarah is too young. Wait another ${yearLeft} years)`);
-}

@@ -11,22 +11,22 @@ GOOD LUCK 😀
 */
 
 //TEST 1
-// const massMark = 78;
-// const heightMark = 1.69;
-// const massJohn = 92;
-// const heightJohn = 1.95;
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
 
-// const BMIMark = massMark / heightMark ** 2;
-// const BMIJohn = massJohn / (heightJohn * heightJohn);
-// const markHigherBMI = BMIMark > BMIJohn;
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+const markHigherBMI = BMIMark > BMIJohn;
 
-// console.log(BMIMark, BMIJohn, markHigherBMI);
+console.log(BMIMark, BMIJohn, markHigherBMI);
 
-// if (massMark > massJohn) {
-//   console.log(`Mark BMI ${massMark} is higher than John ${massJohn}`);
-// } else {
-//   console.log(`John BMI ${massJohn} is higher than Mark BMI ${massMark}`);
-// }
+if (BMIMark > BMIJohn) {
+  console.log(`Mark's BMI ${BMIMark} is higher than John ${massJohn}`);
+} else {
+  console.log(`John's BMI ${BMIJohn} is higher than Mark BMI ${massMark}`);
+}
 
 // TEST 2
 const massMark = 95;
@@ -40,8 +40,8 @@ const markHigherBMI = BMIMark > BMIJohn;
 
 console.log(BMIMark, BMIJohn, markHigherBMI);
 
-if (massMark > massJohn) {
-  console.log(`Mark BMI ${massMark} is higher than John BMI ${massJohn}`);
+if (BMIMark > BMIJohn) {
+  console.log(`Mark's BMI ${BMIMark} is higher than John BMI ${massJohn}`);
 } else {
-  console.log(`John BMI ${massJohn} is higher than Mark BMI ${massMark}`);
+  console.log(`John's BMI ${BMIJohn} is higher than Mark BMI ${massMark}`);
 }
