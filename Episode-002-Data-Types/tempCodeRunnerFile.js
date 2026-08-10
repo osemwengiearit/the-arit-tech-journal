@@ -1,5 +1,8 @@
-if (massMark > massJohn) {
-//   console.log(`Mark BMI ${massMark} is higher than John ${massJohn}`);
-// } else {
-//   console.log(`John BMI ${massJohn} is higher than Mark BMI ${massMark}`);
-// }
+const oldAge = 15;
+
+if (oldAge >= 18) {
+  console.log("Sarah can start driving 🚗");
+} else {
+  const yearLeft = 18 - oldAge;
+  console.log(`Sarah is too young. Wait another ${yearLeft} years)`);
+}

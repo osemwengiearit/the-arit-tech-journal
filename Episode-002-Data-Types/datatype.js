@@ -57,7 +57,7 @@ console.log(typeof gpa);
 
 //Solutions
 
-let fullName = "Arit";
+let name = "Arit";
 let language = "JavaScript";
 let dreamCompany = "Google";
 
@@ -71,7 +71,7 @@ console.log(name, language, dreamCompany);
 // The number of hours you want to study each day
 // Then print all three values.
 
-//Solutions
+//Solution
 
 let age = 32;
 let numberOfCourses = 1;
@@ -125,3 +125,24 @@ console.log(typeof height);
 console.log(typeof isLearningCoding);
 console.log(typeof programmingSkill);
 console.log(typeof developerProfile);
+
+//Write a program that checks if a person is
+// allowed to take a driving license or not
+
+const driveAge = 19;
+const isOldEnough = age >= 18;
+
+if (isOldEnough) {
+  console.log("Sarah can take a driving license");
+}
+
+//But if Sarah is not old enough to start driving
+
+const oldAge = 15;
+
+if (oldAge >= 18) {
+  console.log("Sarah can start driving 🚗");
+} else {
+  const yearLeft = 18 - oldAge;
+  console.log(`Sarah is too young. Wait another ${yearLeft} years)`);
+}
