@@ -10,12 +10,6 @@ console.log(32);
 console.log(`Hello`);
 console.log(`I like pizza`);
 
-window.alert(`This is an alert`);
-window.alert(`I like pizza`);
-
-document.getElementById("JS").textContent = `Hello`;
-document.getElementById("MyJS").textContent = `I like pizza`;
-
 /*Primitive values are basic, immutable pieces of data that are not objects.
 
 PRIMITIVES DATA TYPES
@@ -27,7 +21,7 @@ There are seven (7) Primitive Data Types
 4. Undefined: Value taken by a variable that is not yet defined (‘empty value’) let children;
 5. Null:represents an intentional absence of a value.
 6. Symbol (ES2015): Value that is unique and cannot be changed [Not useful for now]
-7. BigInt (ES2020): Larger integers than the Number type can hold
+7. BigInt (ES2020): Represents integers larger than the safe range of the Number type.
 */
 
 // Example 1
