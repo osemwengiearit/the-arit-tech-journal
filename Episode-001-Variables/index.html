@@ -3,13 +3,81 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>📘 Student Grade Calculator</title>
+
+    <meta name="author" content="Osemwengie Arit Bright" />
+    <meta
+      name="description"
+      content="Arit Bright Osemwengie's Personal Profile Card — The Arit Tech Journal Episode 001"
+    />
+
+    <title>Arit Bright Osemwengie | Profile Card</title>
+
+    <link rel="icon" href="./img/logo.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div class="container">
-      <h1>Student Grade Calculator</h1>
-    </div>
+    <main class="profile-card">
+      <!-- Profile Image -->
+      <div class="profile-image">
+        <img src="./img/arit_logo.jpg" alt="Arit Bright Osemwengie" />
+      </div>
+
+      <!-- Personal Information -->
+      <section class="profile-content">
+        <h1 id="name"></h1>
+
+        <p id="headline"></p>
+
+        <p id="bio"></p>
+
+        <p id="education"></p>
+
+        <p id="skills"></p>
+
+        <p id="careerGoal"></p>
+
+        <!-- Social Links -->
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/osemwengie-arit-bright-a84a28159/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+
+          <a
+            href="https://github.com/osemwengiearit"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a href="mailto:osemwengiearit@gmail.com" aria-label="Email">
+            <i class="fa-regular fa-envelope"></i>
+          </a>
+
+          <a
+            href="https://facebook.com/osemwengie.arit.bright"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+          >
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </div>
+
+        <!-- Current Time -->
+        <p id="utc-time">Loading time...</p>
+
+        <!-- Contact Button -->
+        <button class="btn" type="button">Let's Chat</button>
+      </section>
+    </main>
 
     <script src="project.js"></script>
   </body>

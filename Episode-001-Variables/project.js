@@ -1,17 +1,32 @@
-/*
+/*Project: Personal Profile Card
+
 Prompt:
-Create a class called GradeCalculator that helps calculate a 
-student's final grade and determines if they passed the course.
+Create a simple Personal Profile Card using JavaScript variables.
+
+The goal of this project is to practise declaring variables,
+assigning values to variables, and displaying those values
+using console.log().
 
 Requirements:
-Each student has a midterm score and a final exam score (both out of 100)
-The midterm counts for 40% of the total grade
-The final exam counts for 60% of the total grade
-A student passes if their total grade is 60 or above
 
-The class should:
-Have a constructor that takes the student's name
-Have methods to set the midterm and final exam scores
-Have a method to calculate the final grade
-Have a method to determine if the student passed
+Your profile should contain:
+
+- Your full name
+- Your age
+- Your country
+- Your current profession
+- Your favourite programming language
+- Your current learning goal
+- Your dream career
+- Your favourite quote
+
+The program should:
+
+1. Create a variable for each piece of information.
+2. Give each variable an appropriate name.
+3. Assign a value to each variable.
+4. Display each piece of information in the console.
 */
+
+let name = (document.getElementById("h1").textContent =
+  `Arit Bright Osemwengie`);
