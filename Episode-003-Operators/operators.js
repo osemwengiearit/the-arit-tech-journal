@@ -25,9 +25,7 @@ console.log(ageArit, ageSolomon);
 
 console.log(ageArit * 2, ageArit / 10, 2 ** 3);
 
-// Assuming:
-
-ageArit = 32;
+// Assuming: ageArit = 32;
 
 // JavaScript calculates:
 
